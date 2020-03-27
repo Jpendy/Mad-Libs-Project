@@ -58,6 +58,13 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 
+.buttonArea {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+
 #myButton {
     height:60px;
     width: 60%;
