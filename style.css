@@ -113,11 +113,11 @@ footer {
     margin: auto;
     width: 400px;
     height: 320px;
-    align-self: center;
     visibility: hidden;
 }
 
 #footer-paragraph {
+    padding-top: 30px;
     color: purple;
     font-size: 20px;
 }
@@ -133,6 +133,7 @@ footer {
     color: purple;
     height: 60px;
     text-align: center;
+    align-self: ;
 }
 
 #counter-Area {
