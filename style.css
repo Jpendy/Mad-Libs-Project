@@ -66,8 +66,8 @@ input {
 }
 
 #myButton {
-    height:60px;
-    width: 70%;
+    height:100px;
+    width: 80%;
     margin: 150px;
     margin-bottom: 30px;
     margin-top: 10px;
@@ -82,6 +82,7 @@ input {
 #madLib {
     margin: auto;
     padding: 80px;
+    padding-bottom: 25px;
     color: purple;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
@@ -90,4 +91,14 @@ input {
 
 .spanClass {
     font-weight: bold;
+}
+
+#the-End {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    font-weight: bold;
+    visibility: hidden;
 }

@@ -41,6 +41,8 @@ const spanClass = document.getElementsByClassName('spanClass');
 //this is where I get the button by it's 'id'
 const myButton = document.getElementById('myButton');
 
+const theEnd = document.getElementById('the-End');
+
 //this is where our button is connected to the function that adds all the values
 //from the inputs and places them into the spans
 myButton.addEventListener('click', function(){
@@ -65,4 +67,6 @@ myButton.addEventListener('click', function(){
     
     //this is the part that makes the bold styling appear on the spans when the button is clicked
     spanClass.style.visibility = 'visible';
+
+    theEnd.style.visibility = 'visible';
 });
