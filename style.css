@@ -79,11 +79,15 @@ input {
     font-weight: bold;
 }
 
-.madLib {
+#madLib {
     margin: auto;
     padding: 80px;
     color: purple;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-  /*  visibility: hidden;   Uncomment this for final version*/ 
+   visibility: hidden;  
+}
+
+.spanClass {
+    font-weight: bold;
 }
