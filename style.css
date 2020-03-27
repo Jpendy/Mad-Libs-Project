@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: deepskyblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+};
+
+li {
+    text-align: center;
+}
+
+
+
+input  {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+#myButton {
+    height:60px;
+    width: 60%;
+    margin: 150px;
+    margin-top: 20px;
+    align-items: center;
+    background-color: lightgreen;
+    color: purple;
+    font-size: 40px;
+    font-family: fantasy;
+}
