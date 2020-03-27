@@ -47,6 +47,10 @@ const leoBed = document.getElementById('leoBed');
 
 const resetButton = document.getElementById('reset-button');
 
+const counter = document.getElementById('counter');
+
+let counterSum = 1;
+
 //this is where our button is connected to the function that adds all the values
 //from the inputs and places them into the spans
 myButton.addEventListener('click', function(){
@@ -75,10 +79,12 @@ myButton.addEventListener('click', function(){
     theEnd.style.visibility = 'visible';
 
     leoBed.style.visibility = 'visible';
+    counter.textContent = counterSum;
+    counterSum++;
 });
 
 
-
+//This is the reset button code
 resetButton.addEventListener('click', function(){
     nounOneInput.value = ' ';
     nounTwoInput.value = ' ';
@@ -98,5 +104,6 @@ resetButton.addEventListener('click', function(){
     madLib.style.visibility = 'hidden';
     theEnd.style.visibility = 'hidden';
     leoBed.style.visibility = 'hidden';
+});
 
-})
+
