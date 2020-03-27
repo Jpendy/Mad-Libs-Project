@@ -18,8 +18,8 @@ body {
 }
 
 img {
-    height: 150px;
-    width: 150px;
+    height: 275px;
+    width: 275px;
     margin-top: 20px;
 }
 
@@ -100,5 +100,19 @@ input {
     font-family: 'Courier New', Courier, monospace;
     color: purple;
     font-weight: bold;
+    visibility: hidden;
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#leoBed {
+    margin: auto;
+    width: 400px;
+    height: 320px;
+    align-self: center;
     visibility: hidden;
 }

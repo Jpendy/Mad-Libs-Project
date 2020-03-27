@@ -43,6 +43,8 @@ const myButton = document.getElementById('myButton');
 
 const theEnd = document.getElementById('the-End');
 
+const leoBed = document.getElementById('leoBed');
+
 //this is where our button is connected to the function that adds all the values
 //from the inputs and places them into the spans
 myButton.addEventListener('click', function(){
@@ -66,7 +68,9 @@ myButton.addEventListener('click', function(){
     madLib.style.visibility = 'visible';
     
     //this is the part that makes the bold styling appear on the spans when the button is clicked
-    spanClass.style.visibility = 'visible';
+   // spanClass.style.visibility = 'visible';
 
     theEnd.style.visibility = 'visible';
+
+    leoBed.style.visibility = 'visible';
 });
