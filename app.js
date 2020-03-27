@@ -45,6 +45,8 @@ const theEnd = document.getElementById('the-End');
 
 const leoBed = document.getElementById('leoBed');
 
+const resetButton = document.getElementById('reset-button');
+
 //this is where our button is connected to the function that adds all the values
 //from the inputs and places them into the spans
 myButton.addEventListener('click', function(){
@@ -74,3 +76,27 @@ myButton.addEventListener('click', function(){
 
     leoBed.style.visibility = 'visible';
 });
+
+
+
+resetButton.addEventListener('click', function(){
+    nounOneInput.value = ' ';
+    nounTwoInput.value = ' ';
+    nounThreeInput.value = ' ';
+    nounFourInput.value = ' ';
+
+    verbOneInput.value = ' ';
+    verbTwoInput.value = ' ';
+    verbThreeInput.value = ' ';
+    verbFourInput.value = ' ';
+
+    adjectiveOneInput.value = ' ';
+    adjectiveTwoInput.value = ' ';
+    adjectiveThreeInput.value = ' ';
+    adjectiveFourInput.value = ' ';
+
+    madLib.style.visibility = 'hidden';
+    theEnd.style.visibility = 'hidden';
+    leoBed.style.visibility = 'hidden';
+
+})
