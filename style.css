@@ -17,11 +17,26 @@ body {
     font-weight: bolder;
 }
 
+img {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.instructions {
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 100px auto;
+    margin: 30px auto;
 };
 
 li {
