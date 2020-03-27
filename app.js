@@ -36,7 +36,6 @@ const madLib = document.getElementById('madLib');
 
 //this is where we get the spans all together in a class by their class name.
 //I used this to make the spans display bold in the mad lib
-const spanClass = document.getElementsByClassName('spanClass');
 
 //this is where I get the button by it's 'id'
 const myButton = document.getElementById('myButton');
