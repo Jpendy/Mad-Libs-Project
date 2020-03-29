@@ -50,6 +50,8 @@ const counter = document.getElementById('counter');
 
 let counterSum = 1;
 
+
+
 //this is where our button is connected to the function that adds all the values
 //from the inputs and places them into the spans
 myButton.addEventListener('click', function(){
@@ -70,16 +72,24 @@ myButton.addEventListener('click', function(){
     adjectiveFourSpan.textContent = adjectiveFourInput.value;
 
     //This is the part that makes my mad lib "appear" when the button is clicked
-    madLib.style.visibility = 'visible';
+    madLib.style.display = 'block';
     
     //this is the part that makes the bold styling appear on the spans when the button is clicked
    // spanClass.style.visibility = 'visible';
 
-    theEnd.style.visibility = 'visible';
+    theEnd.style.display = 'block';
+
+    leoBed.style.display = 'block';
 
     leoBed.style.visibility = 'visible';
+    theEnd.style.visibility = 'visible';
+
     counter.textContent = counterSum;
     counterSum++;
+
+    let ul = document.getElementById('ul');
+    ul.style.display = 'none';
+
 });
 
 
@@ -100,9 +110,19 @@ resetButton.addEventListener('click', function(){
     adjectiveThreeInput.value = ' ';
     adjectiveFourInput.value = ' ';
 
-    madLib.style.visibility = 'hidden';
+    madLib.style.display = 'none';
     theEnd.style.visibility = 'hidden';
     leoBed.style.visibility = 'hidden';
+
+    let ul = document.getElementById('ul');
+    ul.style.display = 'block';
+
+    ul.style.display = 'flex';
+    ul.style.flexWrap = 'wrap';
+     
+    // madLib.style.display = 'none';
+    // theEnd.style.visibility = 'none';
+    // leoBed.style.visibility = 'none';
 });
 
 

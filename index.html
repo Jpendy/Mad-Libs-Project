@@ -8,14 +8,14 @@
 </head>
 <body>
     <header id="headerArea">
-        <p>Welcome to our Mad Lib! Hope you have fun! <div>-Jake & Leo</div> <div></div><img src="Jake and Leo.jpg" alt=""></div></p>
+        <p>Welcome to our Mad Lib! Hope you have fun! <div>-Jake & Leo</div> <div></div><img src="Jake and Leo.jpg" alt="a selfie picture of Jake and Leo"></div></p>
     </header>
 
     <main>
             <div id = "main-Container">
                 <p class="instructions">Add the appropriate word to each of the fields, and then hit the button to go!</p>
 
-                    <ul>
+                    <ul id="ul">
                         <li> <h1>Noun 1</h1> <input id="nounOne"  type="text"> </li>
                         <li> <h1>Noun 2</h1>  <input id="nounTwo" type="text"> </li>
                         <li> <h1>Noun 3</h1>  <input id="nounThree" type="text"> </li>
@@ -32,7 +32,7 @@
                         <li> <h1>Adjective 4</h1>  <input id="adjectiveFour" type="text"> </li>
                     </ul>
 
-                <div class="buttonArea"> <button id="myButton">  Create Mad Lib  </button> </div>
+                <div class="buttonArea"> <button id="myButton"> <div id="click-to">click to</div> Create Mad Lib  </button> </div>
 
                 <p id ="madLib" > There once was a dog named Leo. Leo was <span class="spanClass" id="adjectiveOneSpan">  </span> bored and hungry,
                     so he jumped his fence and went to the park. At the park, he decided to do some 
@@ -52,7 +52,7 @@
     </main>
 
     <footer>
-        <img id="leoBed" src="Leo in bed.jpg" alt="">
+        <img id="leoBed" src="Leo in bed.jpg" alt="Leo the dog in bed, looking super cute">
     <br>
         <button id="reset-button">Click to play again</button>
 
